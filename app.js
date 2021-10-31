@@ -35,24 +35,22 @@ app.post("/", function(req, res) {
 
   var jsonData = JSON.stringify(data);
 
-  //     url : "https://us5.api.mailchimp.com/3.0/lists/4a8b669588";
+  //     url : "https://us5.api.mailchimp.com/3.0/lists/";
   //     var options = {
   //
   //     method : "POST",
   // //     header : {
-  // //       "Authorization": "udit e3c6fe276b20e6ffc8ac5c9df2058856-us5"
+  //
   // //     },
-  //     auth: "rastogi:e3c6fe276b20e6ffc8ac5c9df2058856-us5"
+
   //   //  body: jsonData
   //   };
 
-  const url = "https://us5.api.mailchimp.com/3.0/lists/4a8b669588";
+  const url =
   //
   const options = {
 
-    method: "POST",
-    auth: "rastogi:e3c6fe276b20e6ffc8ac5c9df2058856-us5"
-    //body: jsonData
+ 
   }
    //const body = jsonData;
 
@@ -118,11 +116,7 @@ app.listen( process.env.PORT || 3000, function() {
   console.log("Server is running on port 3000");
 })
 
-//API KEY
-//e3c6fe276b20e6ffc8ac5c9df2058856-us5
-//e3c6fe276b20e6ffc8ac5c9df2058856-us5
-//LIST ID
-//4a8b669588
+
 
 
 
@@ -172,12 +166,6 @@ app.listen( process.env.PORT || 3000, function() {
 //
 //     const jsonData = JSON.stringify(userData);
 //
-//     const url = "https://us5.api.mailchimp.com/3.0/lists/4a8b669588";
-//
-//     const options = {
-//         method: "POST",
-//         auth: "rastogi:e3c6fe276b20e6ffc8ac5c9df2058856-us5"
-//     }
 //
 //     const request = https.request(url, options, (response) => {
 //         console.log(response.statusCode);
